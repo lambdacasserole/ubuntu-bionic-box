@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Ensure no user interaction.
+export DEBIAN_FRONTEND=noninteractive
+
 # Install desktop system.
 add-apt-repository -y ppa:gnome3-team/gnome3
 apt-get update -y
