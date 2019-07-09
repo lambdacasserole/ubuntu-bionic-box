@@ -26,15 +26,6 @@ vagrant ssh
 
 To access the box over SSH.
 
-## Usage
-From a terminal, run:
-
-```bash
-sudo isabelle-utp-ide
-```
-
-Note that `sudo` is only needed on first run to permit write access to the directory for compilation. After this is complete, `isabelle-utp-ide` by itself will suffice.
-
 ## Details
 The box is running Ubuntu "Bionic Beaver" 18.04 LTS (Desktop) with:
 
