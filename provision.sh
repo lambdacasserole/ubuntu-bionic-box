@@ -10,7 +10,7 @@ apt-get install -y gnome-shell ubuntu-gnome-desktop
 apt-get upgrade -y
 
 # Utilities to build kernel modules.
-apt-get install gcc make perl
+apt-get install gcc make perl -y
 
 # Install guest additions.
 wget https://download.virtualbox.org/virtualbox/6.0.4/VBoxGuestAdditions_6.0.4.iso
